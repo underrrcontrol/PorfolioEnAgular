@@ -7,7 +7,9 @@ import { InicioComponent } from './componentes/inicio/inicio.component';
 import { SobremiComponent } from './componentes/sobremi/sobremi.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
-import { ContactoComponent } from './componentes/contacto/contacto.component';
+import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
+import { FooterComponent } from './componentes/footer/footer.component';
+import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ContactoComponent } from './componentes/contacto/contacto.component';
     SobremiComponent,
     EducacionComponent,
     ExperienciaComponent,
-    ContactoComponent
+    HabilidadesComponent,
+    FooterComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,
