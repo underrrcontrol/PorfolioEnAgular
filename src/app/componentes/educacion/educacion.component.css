@@ -14,7 +14,7 @@
 }
 #educacion .fila {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 1100px;
   margin: 30px auto;
 }
@@ -27,7 +27,7 @@
   transition: .5s;
 }
 #educacion .fila .educacion:hover {
-  box-shadow: 5px 5px 10px rgb(204, 136, 131), -5px -5px 10px rgb(204, 136, 131);
+  box-shadow: 10px 10px 10px rgb(204, 136, 131), -5px -5px 10px rgb(204, 136, 131);
 }
 #educacion .fila .educacion h4 {
   color: antiquewhite;

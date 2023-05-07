@@ -2,7 +2,7 @@
   <div class="contenido">
       <header>
           <div class="contenido-header">
-              <h1>/FD/</h1>
+              <h1>/{{miPorfolio.acronym}}/</h1>
               <nav id="nav" class="">
                   <ul id="links">
                       <li><a href="#inicio">INICIO</a></li>
@@ -23,8 +23,11 @@
       </header>
       <div class="presentacion">
           <p class="bienvenida" style="margin: 30px;">Bienvenidos</p>
-          <h2>Soy <span>Daniele Fabricio</span>, Developer full stack jr.</h2>
-          <p class="descripcion"><b>Empleado administrativo, contable e impositivo; Técnico en administración de empresas; Estudiante de programación web, frontend y backend; Músico compositor y baterísta</b></p>
+          <h2>Soy <span>{{miPorfolio.name}}</span>, {{miPorfolio.about}}</h2>
+          <p class="descripcion"><b>{{miPorfolio.descripcion}}</b></p>
+          <div class="btn-edit">
+            <a href="#" class="btn-right"><i class="fa fa-pen"></i></a>
+          </div>
       </div>
   </div>
 </section>

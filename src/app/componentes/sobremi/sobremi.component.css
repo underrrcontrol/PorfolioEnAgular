@@ -14,6 +14,10 @@
   border-radius: 20px;
   background-color: rgb(32, 32, 54);
 }
+#sobremi .contenedor-foto .btn-edit .btn-right {
+  color: rgb(32, 32, 54);
+  margin-left: 385px;
+}
 #sobremi .sobremi {
   margin: 0 40px;
 }

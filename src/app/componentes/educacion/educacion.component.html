@@ -1,40 +1,18 @@
 <section id="educacion">
   <h3 class="titulo-seccion">EDUCACION</h3>
-  <div class="fila">
-      <div class="educacion">
-          <span class="icono"><i class="fa-solid fa-school"></i></span>
-          <h4>Títulos</h4>
-          <hr>
-          <ul class="educacion-tag">
-              <li>Técnico en administración de empresas, 2006, Facultad de Ciencias Económicas, UCU</li>
-          </ul>
-          <p></p>
-      </div>
-
-      <div class="educacion">
-          <span class="icono"><i class="fa-solid fa-school"></i></span>
-          <h4>Títulos</h4>
-          <hr>
-          <ul class="educacion-tag">
-              <li>Contador Público sin concluir, Facultad de Ciencias Económicas, UCU</li>
-          </ul>
-      </div>
-
-      <div class="educacion">
-          <span class="icono"><i class="fa-solid fa-school"></i></span>
-          <h4>Cursos</h4>
-          <hr>
-          <p>Desarrollador Full Stack Jr; 2023, Argentina Programa, #Yo programo 4ta edición <br> Conocimientos de Html, Css, JavaScript, Angular, Typescript, Github, Java, MySql</p>
-      </div>
-
-      <div class="educacion">
-          <span class="icono"><i class="fa-solid fa-school"></i></span>
-          <h4>Cursos</h4>
-          <hr>
-          <ul class="educacion-tag">
-              <li>Nivel 4 de Inglés técnico para desarrolladores de software del Centro Universitario de idiomas a2.2, Plan Argentina Programa 4.0</li>
-          </ul>
-          <p></p>
-      </div>
-  </div>
+  <li *ngFor="let educacion of educacionList">
+    <div class="fila">
+        <div class="educacion">
+            <span class="icono"><i class="fa-solid fa-school"></i></span>
+            <h4>Títulos</h4>
+            <hr>
+            <ul class="educacion-tag">
+              <p>{{educacion.school}}, {{educacion.title}}, desde {{educacion.start}} - {{educacion.end}}</p>
+            </ul>
+            <div class="btn-edit">
+              <a href="#" class="btn-right"><i class="fa fa-pen"></i></a>
+            </div>
+        </div>
+    </div>
+  </li>
 </section>

@@ -1,0 +1,59 @@
+{
+  "id": 1,
+  "name": "Fabricio Daniele",
+  "acronym": "FD",
+  "username": "underrrcontrol",
+  "email": "fabricio_daniele@hotmail.com",
+  "age": 36,
+  "ubication": "Concepción Del Uruguay, Entre Ríos",
+  "about": "Developer stack jr.",
+  "descripcion": "Empleado administrativo, contable e impositivo; Técnico en administración de empresas; Estudiante de programación web, frontend y backend; Músico compositor y baterísta",
+  "imageperfil": "assets/perfil.jpg",
+  "curriculumvitae": "assets/CV FD.docx",
+  "education":[{
+      "school": "Colegio Nacional J. J. de Urquiza",
+      "graduation": true,
+      "title": "Bachiller",
+      "start": "1999",
+      "end": "2003"
+    },
+    {
+      "school": "Facultad de Ciencias Económicas, UCU",
+      "graduation": true,
+      "title": "Técnico en Administración de Empresas",
+      "start": "2004",
+      "end": "2005"
+    },
+    {
+      "school": "Facultad de Ciencias Económicas, UCU",
+      "graduation": false,
+      "title": "Contador Público Nacional",
+      "start": "2004",
+      "end": "Sin concluir"
+    },
+    {
+      "school": "Centro Universitario de idiomas a2.2, Plan Argentina Programa 4.0",
+      "graduation": true,
+      "title": "Nivel 4 de Inglés técnico para desarrolladores de software",
+      "start": "2023",
+      "end": "2023"
+    },
+    {
+      "school": "Argentina Programa, #Yo programo 4ta edición",
+      "graduation": false,
+      "title": "Desarrollador Full Stack Jr",
+      "start": "2022",
+      "end":"Sin concluir"
+    }
+  ],
+  "company": {
+    "name": "Colegio De Ecribanos De Entre Ríos, Delegación Concepción Del Uruguay",
+    "since": "01-04-2013",
+    "active": true
+  },
+  "musician": {
+    "instrument": "Batería",
+    "band": "Mute",
+    "active": true
+  }
+}

@@ -63,3 +63,6 @@
   font-size: 14px;
   line-height: 22px;
 }
+#proyectos .fila .btn-edit .btn-right {
+  color: rgb(25, 33, 73, 0.904);
+}
