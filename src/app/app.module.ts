@@ -10,7 +10,10 @@ import { ExperienciaComponent } from './componentes/experiencia/experiencia.comp
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-sesion.component';
+import { PorfolioComponent } from './componentes/porfolio/porfolio.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,12 +24,15 @@ import { HttpClientModule } from '@angular/common/http'
     ExperienciaComponent,
     HabilidadesComponent,
     FooterComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    IniciarSesionComponent,
+    PorfolioComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
